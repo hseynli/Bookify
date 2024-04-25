@@ -1,0 +1,12 @@
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.csproj.AssemblyReference.cache
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.AssemblyInfoInputs.cache
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.AssemblyInfo.cs
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\VS Projects\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.deps.json
+D:\Projects\VS Projects\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.dll
+D:\Projects\VS Projects\Bookify\Bookify.Domain\bin\Debug\net8.0\Bookify.Domain.pdb
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.dll
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\refint\Bookify.Domain.dll
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.pdb
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\ref\Bookify.Domain.dll
