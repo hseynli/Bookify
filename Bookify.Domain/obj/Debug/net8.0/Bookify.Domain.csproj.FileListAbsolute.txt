@@ -10,3 +10,4 @@ D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.d
 D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\refint\Bookify.Domain.dll
 D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.pdb
 D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\ref\Bookify.Domain.dll
+D:\Projects\VS Projects\Bookify\Bookify.Domain\obj\Debug\net8.0\Bookify.Domain.sourcelink.json

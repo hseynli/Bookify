@@ -1,4 +1,3 @@
-﻿
-namespace Bookify.Domain.Users;
+﻿namespace Bookify.Domain.Users;
 
 public record Email(string Value);

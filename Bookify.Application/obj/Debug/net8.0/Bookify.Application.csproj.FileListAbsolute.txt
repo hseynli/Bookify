@@ -1,0 +1,16 @@
+D:\Projects\VS Projects\Bookify\Bookify.Application\bin\Debug\net8.0\Bookify.Application.deps.json
+D:\Projects\VS Projects\Bookify\Bookify.Application\bin\Debug\net8.0\Bookify.Application.dll
+D:\Projects\VS Projects\Bookify\Bookify.Application\bin\Debug\net8.0\Bookify.Application.pdb
+D:\Projects\VS Projects\Bookify\Bookify.Application\bin\Debug\net8.0\Bookify.Domain.dll
+D:\Projects\VS Projects\Bookify\Bookify.Application\bin\Debug\net8.0\Bookify.Domain.pdb
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.csproj.AssemblyReference.cache
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.AssemblyInfoInputs.cache
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.AssemblyInfo.cs
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.csproj.CoreCompileInputs.cache
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.sourcelink.json
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify..677C42B1.Up2Date
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.dll
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\refint\Bookify.Application.dll
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\Bookify.Application.pdb
+D:\Projects\VS Projects\Bookify\Bookify.Application\obj\Debug\net8.0\ref\Bookify.Application.dll
