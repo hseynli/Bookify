@@ -29,7 +29,7 @@ internal sealed class SearchApartmentQueryHandler : IQueryHandler<SearchApartmen
             return new List<ApartmentResponse>();
         }
 
-        using var connection = _sqlConnectionFactory.CreateConnection();
+        using var connection = await _sqlConnectionFactory.CreateConnectionAsync();
 
         const string sql = """
             select * from apatments as a 

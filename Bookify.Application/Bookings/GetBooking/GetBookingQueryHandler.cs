@@ -17,7 +17,7 @@ internal sealed class GetBookingQueryHandler : IQueryHandler<GetBookingQuery, Bo
 
     public async Task<Result<BookingResponse>> Handle(GetBookingQuery request, CancellationToken cancellationToken)
     {
-        using IDbConnection connection = _sqlConnectionFactory.CreateConnection();
+        using IDbConnection connection = await _sqlConnectionFactory.CreateConnectionAsync();
 
         var booking = await connection.QueryFirstOrDefaultAsync<BookingResponse>(
                        "SELECT Id, ApartmentId, UserId, Duration, PriceForPeriod, CleaningFee, AmenitiesUpCharge, TotalPrice, Status, CreatedOnUtc, ConfirmedUtc, RejectedOnUtc, CompletedOnUtc, CanceledOnUtc FROM Bookings WHERE Id = @BookingId", new { request.BookingId });

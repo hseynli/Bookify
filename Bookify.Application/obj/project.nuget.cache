@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RAnMWTD3rjInAiAlvBNJ6bMzwde5gsy/LeoL+mkLK6pSaqzfRi1CHlRL3sxaVFuw29UlOjRmQ5nzFZKe/5+TpQ==",
+  "dgSpecHash": "/clQ75A90rbl575bvYQv57EL+jyApmdDli1bXMbWp+fBekysaKN1d9c/Hf6xUYyN2NYrARY2gPIPUiSBzev55w==",
   "success": true,
   "projectFilePath": "D:\\Projects\\VS Projects\\Bookify\\Bookify.Application\\Bookify.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\farid.huseynli\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
+    "C:\\Users\\farid.huseynli\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.1\\fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512",
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\farid.huseynli\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\farid.huseynli\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\farid.huseynli\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\farid.huseynli\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.1\\microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }
