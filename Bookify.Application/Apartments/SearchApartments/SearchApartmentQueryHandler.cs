@@ -25,22 +25,32 @@ internal sealed class SearchApartmentQueryHandler : IQueryHandler<SearchApartmen
     public async Task<Result<IReadOnlyList<ApartmentResponse>>> Handle(SearchApartmentsQuery request, CancellationToken cancellationToken)
     {
         if (request.StartDate >= request.EndDate)
-        {
             return new List<ApartmentResponse>();
-        }
 
         using var connection = await _sqlConnectionFactory.CreateConnectionAsync();
 
         const string sql = """
-            select * from apatments as a 
-            where not exists 
+            SELECT
+                a."id" AS Id,
+                a."name" AS Name,
+                a."description" AS Description,
+                a."price_Amount" AS Price,
+                a."price_Currency" AS Currency,
+                a."address_Country" AS Country,
+                a."address_State" AS State,
+                a."address_ZipCode" AS ZipCode,
+                a."address_City" AS City,
+                a."address_Street" AS Street
+            FROM apartments AS a
+            WHERE NOT EXISTS
             (
-                select 1 from bookings as b
-                where
-                b.apartment_id = a.id and
-                b.durationStart >= @EndDate and
-                b.duration_end <= @StartDate
-                b.status = any(@ActiveBookingStatuses)
+                SELECT 1
+                FROM bookings AS b
+                WHERE
+                    b."apartmentId" = a."id" AND
+                    b."duration_Start" <= @EndDate AND
+                    b."duration_End" >= @StartDate AND
+                    b."status" = ANY(@ActiveBookingStatuses)
             )
             """;
 
